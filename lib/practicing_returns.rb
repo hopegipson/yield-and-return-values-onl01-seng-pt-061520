@@ -10,5 +10,4 @@ def hello(array)
   end
 end
 
-binding.pry
 hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
